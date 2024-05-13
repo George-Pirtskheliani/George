@@ -1,0 +1,157 @@
+/* reset style */
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Global Style */
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.d-flex  {
+    display: flex;
+}
+
+
+/*  Header stylee */
+header {
+    height: 90px;
+    background-color: lightslategray ;
+    align-items: center;
+}
+
+header .logo {
+    width: 45px;
+    height: 45px;
+}
+header .container {
+    align-items: center;
+}
+
+nav  {
+    width: calc(100% - 80px);
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+footer {
+    background-color: lightpink;
+    padding: 15px 0;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: lightseagreen;
+    border-radius: 0px 20px;
+    transition: 0.2s;
+}
+
+/* Auth */
+.auth-form-container {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid grey;
+    margin: auto;
+    margin-bottom: 201px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.auth-form-container .text-input-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group1 {
+margin-bottom: 15px;
+}
+
+.auth-form-container .text-input,
+.auth-form-container .location {
+    height: 35px;
+    display: block;
+    width: 100%; 
+    box-sizing: border-box;
+    padding-left: 15px;
+    border-left-color: darkcyan;
+    border-right-color: darkcyan;
+    border-style: groove;
+    border-radius: 40px;
+    border-right: 15px;
+    border-left: 15px;
+    
+}
+
+.auth-form-container .location {
+    background-color: white;
+    border: 1px solid black;
+    border-style: dashed;
+    border-radius: 2px;
+    
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.button-link {
+    text-decoration: none;
+    line-height: 35px;
+    color: darkblue;
+    
+}
+
+.button-link:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    display: block;
+    font-size: 16px;
+    height: 35px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+
+.button-primary {
+    background-color: rgb(77,77,179);
+    color: white;
+
+}
+
+.reset-pass-link {
+    display: block;
+    text-align: center;
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.sex-container {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.body-container {
+    padding: 30px 0;
+    min-height: calc(100vh - 70px - 60px);
+    box-sizing: border-box;
+}
+
+
