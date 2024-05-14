@@ -6,7 +6,7 @@ body {
 
 /* Global Style */
 .container {
-    width: 100%;
+    width: 1200px;
     margin: auto;
 }
 
@@ -54,7 +54,7 @@ footer p {
 }
 
 nav a:hover {
-    background-color: lightseagreen;
+    background-color: lightsalmon;
     border-radius: 0px 20px;
     transition: 0.2s;
 }
@@ -154,4 +154,69 @@ margin-bottom: 15px;
     box-sizing: border-box;
 }
 
+/* BLOG list page styles */
+
+
+.main-category-item {
+    outline: 1px solid rgb(231, 226, 226);
+    flex-grow: 1;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 15px;
+    width:25% ;
+    text-decoration: none;
+    color: black;  
+}
+.main-category-item:hover {
+    border-color: rebeccapurple;
+    background-color: aquamarine;
+    color: black;
+    text-shadow: 0 0 10px #00eeff;
+    box-shadow: 
+    0 0 10px #00eeff,
+    0 0 10px #00eeff,
+    0 0 10px #00eeff,
+    0 0 20px #00eeff,
+    0 0 20px #00eeff;
+    letter-spacing: 3px;
+    font-size: 15px;
+
+} 
+ 
+.main-category-item:first-child {
+    margin-left: 0;
+}
+.main-category-item:last-child {
+    margin-right: 0;
+}
+
+.main-category-item img {
+    width: 45px;
+    height: 45px;
+}
+.d-block {
+    display: block;
+}
+.category-navigation-list {
+    outline: 1px solid green;
+    flex-basis: 20%;
+    margin: 1;
+    padding: 25px 0 24px 40px;
+    list-style: none;
+}
+
+.category-navigation-list a {
+    padding: 5px 0;
+    text-decoration: none;
+    color: darkgoldenrod;
+    font-size: 25px;
+    font-weight: bold;
+}
+.category-navigation-list a:hover {
+    text-decoration: underline lightskyblue;
+    font-weight: bolder;
+    color: lightseagreen;
+    
+
+}
 
