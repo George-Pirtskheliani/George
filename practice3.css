@@ -1,3 +1,10 @@
+/* HTML */
+  <form action="">
+        <input class="R" type="email" id="email-box" />
+        <label class="R" for="email-box">Email</label>
+    </form>
+/* HTML */
+
 form label {
     position: absolute;
     top: 8px;
