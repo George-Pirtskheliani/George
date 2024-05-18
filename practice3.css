@@ -1,0 +1,16 @@
+form label {
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    color: black;
+    transition: 0.5s;
+    pointer-events: none;
+    display: flex;
+}
+
+
+
+form input:focus + label{
+    transform: translate(-5px, -30px);
+}
+
