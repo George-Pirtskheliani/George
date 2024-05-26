@@ -1,3 +1,13 @@
+
+/* HTML */
+    <div class="cookieCard">
+        <p class="cookieHeading">Cookies.</p>
+        <p class="cookieDescription">By using this website you aoutomatically accept that we use cookies. <a href="#">What for>?</a></p>
+        <button class="acceptButton">Understood</button>
+    </div>
+/* HTML */
+
+
 .cookieCard {
     width: 300px;
     height: 200px;
